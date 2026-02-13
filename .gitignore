@@ -1,0 +1,6 @@
+# Ignore big files
+TMDB_movie_dataset_v11.csv
+movies_cleaned.csv
+*.pkl
+
+token.txt
