@@ -50,13 +50,21 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 @st.cache_resource
-def load_model():
-    nn_model = pickle.load(open("nn_model.pkl", "rb"))
-    final_matrix = pickle.load(open("final_matrix.pkl", "rb"))
-    data = pd.read_csv("movies_cleaned.csv")
-    return nn_model, final_matrix, data
 
-nn_model, final_matrix, data = load_model()
+def load_model():
+    # Load the short dataset
+    data = pd.read_csv("short_dataset.csv")
+    
+    # Ikkada mee Matrix creation logic (TF-IDF or CountVectorizer) rayandi
+    # Example:
+    # cv = CountVectorizer(...)
+    # final_matrix = cv.fit_transform(data['tags'])
+    
+    # Model ni ikkade train cheyandi load cheyadaniki badulu
+    nn_model = NearestNeighbors(metric='cosine', algorithm='brute')
+    nn_model.fit(final_matrix)
+    
+    return nn_model, final_matrix, data
 
 def recommend(movie_title, top_n=10, language=None):
     matches = data[data['title'].str.lower() == movie_title.lower()]
