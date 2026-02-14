@@ -57,11 +57,11 @@ project/
 ## 🔍 Screenshots
 
 ### Homepage
-[![Homepage](https://github.com/user-attachments/assets/368ac95e-4745-4fe7-b33d-c3f97ca51c61)](https://your-movie-app.streamlit.app))
+[![Homepage](https://github.com/user-attachments/assets/368ac95e-4745-4fe7-b33d-c3f97ca51c61)](https://your-movie-app.streamlit.app)
 
 ### Prediction Result
 [![Prediction](https://github.com/user-attachments/assets/ec95376b-f0e0-450f-a1de-5b137433d139)](https://your-movie-app.streamlit.app)
-)
+
 
 
 
