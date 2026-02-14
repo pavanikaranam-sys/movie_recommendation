@@ -84,10 +84,10 @@ def recommend(movie_title, top_n=10, language=None):
 st.title("🎬 Movie Recommendation System")
 
 movie_input = st.selectbox("Search or Select a Movie", data['title'].values)
+language_input = st.text_input("Language (e.g., en, hi, fr)", value="")
 
 with st.sidebar:
     st.header("Settings")
-    language_input = st.text_input("Language (e.g., en, hi, fr)", value="")
     top_n = st.slider("Number of Recommendations", 5, 50, 10)
 
 if st.button("Recommend"):
