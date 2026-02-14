@@ -9,7 +9,9 @@
 ---
 
 ## Project Overview
-This project is a movie recommendation web application built using Python and Streamlit. It leverages the TMDB dataset to provide personalized movie recommendations based on user-selected preferences.
+
+**This project is a movie recommendation web application built using Python and Streamlit. It leverages the TMDB dataset to provide personalized movie recommendations based on user-selected preferences.
+**
 ---
 
 ## 🚀 Features
@@ -55,8 +57,7 @@ project/
 ## 🔍 Screenshots
 
 ### Homepage
-![Homepage](<img width="1350" height="600" alt="homepage" src="https://github.com/user-attachments/assets/368ac95e-4745-4fe7-b33d-c3f97ca51c61" />
-)
+[![Homepage](https://github.com/user-attachments/assets/368ac95e-4745-4fe7-b33d-c3f97ca51c61)](https://your-movie-app.streamlit.app))
 
 ### Prediction Result
 ![Prediction](<img width="1350" height="600" alt="Prediction" src="https://github.com/user-attachments/assets/ec95376b-f0e0-450f-a1de-5b137433d139" />
